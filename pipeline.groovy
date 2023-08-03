@@ -4,28 +4,25 @@ pipeline {
         stage("Build") {
             steps {
                 echo "Building..."
-            }
 
-            steps {
                 echo "Build done !"
             }
         }
         stage("Test") {
             steps {
                 echo "Testing..."
-            }
-            
-            steps {
+
                 echo "Test done !"
             }
         }
         stage("Deploy") {
             steps {
                 echo "Deploying..."
-            }
-            steps {
+
+
                 echo "Deploy done !"
             }
+            
         }
     }
 }ß
